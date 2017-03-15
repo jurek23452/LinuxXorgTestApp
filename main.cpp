@@ -82,7 +82,7 @@ int main (int argc, char *argv[])
                                  0, 0, 240,160, 5, depth,
                                  InputOutput, visual, CWBackPixel,
                                  &frame_attributes);
-    XStoreName(display, frame_window, "Piramidy Darmowej Energi I Linux");
+    XStoreName(display, frame_window, "Test");
     XSelectInput(display, frame_window, ExposureMask | StructureNotifyMask);
     fontinfo = XLoadQueryFont(display, "10x20");
     gr_values.font = fontinfo->fid;
